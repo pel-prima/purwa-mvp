@@ -1,0 +1,37 @@
+{
+  "teacher": {"name":"Maya Pranoto","role":"Guru Piano"},
+  "class": {"name":"Piano Fundamental A","room":"Studio 3","time":"15.30–16.30"},
+  "students": [
+    {"name":"Alya Putri","initials":"AP","level":"Foundation 2","instrument":"Piano","status":"present","color":"#FBBF24"},
+    {"name":"Raka Wijaya","initials":"RW","level":"Foundation 1","instrument":"Piano","status":"pending","color":"#60A5FA"},
+    {"name":"Nadia Santoso","initials":"NS","level":"Foundation 2","instrument":"Piano","status":"pending","color":"#F472B6"},
+    {"name":"Kevin Lim","initials":"KL","level":"Foundation 1","instrument":"Piano","status":"late","color":"#34D399"}
+  ],
+  "attendanceHistory": [
+    {"studentName":"Alya Putri","date":"2026-08-01","status":"present","time":"15:27"},
+    {"studentName":"Raka Wijaya","date":"2026-08-01","status":"present","time":"15:31"},
+    {"studentName":"Nadia Santoso","date":"2026-08-01","status":"absent","time":"—"},
+    {"studentName":"Kevin Lim","date":"2026-08-01","status":"late","time":"15:42"},
+    {"studentName":"Alya Putri","date":"2026-07-25","status":"present","time":"15:25"},
+    {"studentName":"Raka Wijaya","date":"2026-07-25","status":"permit","time":"—"},
+    {"studentName":"Nadia Santoso","date":"2026-07-25","status":"present","time":"15:29"},
+    {"studentName":"Kevin Lim","date":"2026-07-25","status":"present","time":"15:30"}
+  ],
+  "progressHistory": [
+    {"studentName":"Alya Putri","date":"2026-07-11","scores":{"intonation":3,"tempo":3,"technique":3,"fluency":3,"comprehension":4},"note":"Mulai stabil membaca melodi pendek.","target":"Jaga tempo dengan metronom 70 BPM."},
+    {"studentName":"Alya Putri","date":"2026-07-25","scores":{"intonation":4,"tempo":3,"technique":4,"fluency":4,"comprehension":4},"note":"Perpindahan posisi semakin halus dan percaya diri.","target":"Latihan dinamika dan tempo pada bagian tengah."},
+    {"studentName":"Raka Wijaya","date":"2026-07-11","scores":{"intonation":2,"tempo":3,"technique":3,"fluency":2,"comprehension":3},"note":"Sudah mengenali pola latihan dasar.","target":"Ulangi fingering dan transisi tangan kanan."},
+    {"studentName":"Raka Wijaya","date":"2026-07-25","scores":{"intonation":3,"tempo":3,"technique":3,"fluency":3,"comprehension":4},"note":"Kelancaran meningkat setelah latihan berulang.","target":"Pertahankan tempo tanpa berhenti."},
+    {"studentName":"Nadia Santoso","date":"2026-07-11","scores":{"intonation":4,"tempo":4,"technique":3,"fluency":3,"comprehension":4},"note":"Nada dan tempo sudah baik.","target":"Perbaiki kurva jari dan relaksasi bahu."},
+    {"studentName":"Nadia Santoso","date":"2026-07-25","scores":{"intonation":4,"tempo":4,"technique":4,"fluency":4,"comprehension":5},"note":"Teknik tangan jauh lebih rileks.","target":"Mulai latihan ekspresi dan dinamika."},
+    {"studentName":"Kevin Lim","date":"2026-07-11","scores":{"intonation":3,"tempo":2,"technique":3,"fluency":2,"comprehension":3},"note":"Masih sering mempercepat tempo.","target":"Latihan dengan metronom 60 BPM."},
+    {"studentName":"Kevin Lim","date":"2026-07-25","scores":{"intonation":3,"tempo":3,"technique":4,"fluency":3,"comprehension":4},"note":"Tempo mulai stabil dan postur membaik.","target":"Selesaikan lagu tanpa jeda panjang."}
+  ],
+  "rubrics": [
+    {"key":"intonation","label":"Ketepatan Nada","short":"Nada","descriptions":["Belum menemukan letak tuts yang benar, sehingga melodi lagu belum terbentuk.","Menemukan beberapa nada awal, tetapi sebagian besar melodi masih salah.","Melodi cukup baik, meskipun masih ada beberapa kesalahan nada pada bagian tengah.","Hampir semua melodi tepat, hanya ada satu atau dua kesalahan kecil.","Semua tuts melodi dan akor dasar dimainkan sangat akurat tanpa kesalahan."]},
+    {"key":"tempo","label":"Ketukan dan Tempo","short":"Tempo","descriptions":["Bermain tanpa arah ketukan jelas dan kecepatan berubah drastis.","Mencoba mengikuti ketukan dasar, tetapi tempo masih sering berubah tidak beraturan.","Tempo cukup konsisten, meski kadang terhenti saat membaca notasi berikutnya.","Kecepatan stabil dari awal hingga akhir sesuai ketukan yang ditentukan.","Tempo sangat stabil, presisi, dan mengalir sempurna mengikuti birama."]},
+    {"key":"technique","label":"Teknik Jari dan Postur","short":"Teknik","descriptions":["Posisi duduk membungkuk dan jari datar kaku di atas tuts.","Postur masih tegang dan posisi jari sering mendatar saat menekan tuts tertentu.","Punggung tegak, tetapi posisi jari belum sepenuhnya membentuk kurva.","Duduk tegak rileks dengan jari tangan melengkung baik saat bermain.","Postur ideal dan posisi jari melengkung sempurna dipertahankan secara konsisten."]},
+    {"key":"fluency","label":"Kelancaran Bermain","short":"Lancar","descriptions":["Permainan sering terhenti di setiap perpindahan nada sehingga lagu belum terbentuk.","Bermain ragu-ragu dan terdapat banyak jeda panjang di antara baris lagu.","Lagu cukup lancar, dengan sedikit hambatan saat tangan berpindah posisi.","Seluruh lagu lancar, hanya ada satu jeda kecil yang tidak mengganggu.","Musik mengalir, percaya diri, tanpa keraguan atau berhenti sama sekali."]},
+    {"key":"comprehension","label":"Pemahaman Instruksi Dasar","short":"Instruksi","descriptions":["Kesulitan memahami letak jari dan tanda musik sederhana yang baru diajarkan.","Membutuhkan banyak arahan ulang untuk mengingat posisi tangan dan pola latihan.","Memahami sebagian besar penjelasan, tetapi sesekali masih perlu diingatkan.","Memahami instruksi dengan cepat dan mempraktikkan materi dengan sedikit bantuan.","Langsung memahami seluruh materi baru dan mempraktikkannya secara mandiri."]}
+  ]
+}
